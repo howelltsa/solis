@@ -1,67 +1,31 @@
-/* title header */
-.titleheader-area {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  height: 345px; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .titleheader-area {
-      height: 270px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .titleheader-area {
-      height: 250px; } }
-  @media only screen and (max-width: 767px) {
-    .titleheader-area {
-      height: 220px; } }
-  .titleheader-area .titleheaderContent {
-    position: absolute;
-    width: 392px;
-    height: 78px;
-    bottom: -39px;
-    left: 50%;
-    margin-left: -196px;
-    z-index: 100;
-	background: rgb(0,126,218);
-	background: -moz-linear-gradient(47deg, rgba(0,126,218,1) 0%, rgba(251,21,6,1) 100%);
-	background: -webkit-linear-gradient(47deg, rgba(0,126,218,1) 0%, rgba(251,21,6,1) 100%);
-	background: linear-gradient(47deg, rgba(0,126,218,1) 0%, rgba(251,21,6,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#007eda",endColorstr="#fb1506",GradientType=1);
-    text-align: center; }
-    @media only screen and (max-width: 767px) {
-      .titleheader-area .titleheaderContent {
-        width: 280px;
-        margin-left: -140px; } }
-    .titleheader-area .titleheaderContent h2 {
-      font-size: 36px;
-      color: #ffffff;
-      margin-bottom: 0;
-      line-height: 78px;
-      font-weight: 900; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .titleheader-area .titleheaderContent h2 {
-          font-size: 30px; } }
-      @media only screen and (max-width: 767px) {
-        .titleheader-area .titleheaderContent h2 {
-          font-size: 26px; } }
+	
+	
+	
+/* Fonts and Text Classes */
+.dmg {
+	font-family: 'Nunito Sans', sans-serif;
+	padding: 25px 50px 50px; }
+	
+.fonttheme {
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%; }
+	
+.fonttheme-sm {
+	font-family: 'Oswald', sans-serif;
+	font-size: 75%;
+    padding: 0px 25px;	}
+	
+.fontpadding {
+	padding: 25px 50px; }
+	
+/* Image Classes */
 
-/* header image css */
-.bg-img {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  
-.bg-overlay2 {
-  position: relative;
-  z-index: 2;
-  background-position: center center;
-  background-size: cover; }
-  .bg-overlay2::after {
-    background-color: rgba(21, 4, 48, 0.5);
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: ""; }
+.smimg {
+	padding: 25px 50px; }
+	
+.image-fluid-custom {
+	width: 100% }
+	
+
+	
 
