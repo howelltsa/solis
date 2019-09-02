@@ -4,7 +4,7 @@
 /* Fonts and Text Classes */
 .dmg {
 	font-family: 'Nunito Sans', sans-serif;
-	padding: 25px 50px 50px; }
+	padding: 50px 50px 20px; }
 	
 .fonttheme {
 	font-family: 'Oswald', sans-serif;
@@ -21,11 +21,17 @@
 /* Image Classes */
 
 .smimg {
-	padding: 25px 50px; }
+	padding: 70px 25px 20px 30px;
+	max-width: 500px;
+	width: 100%}
 	
 .image-fluid-custom {
 	width: 100% }
 	
-
+.fit {
+	width: 225px;
+	height: auto; }
 	
-
+.row {
+	padding: 0 !important;
+	margin: 0 !important; }
