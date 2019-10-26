@@ -3,15 +3,16 @@
 	
 /* Fonts and Text Classes */
 .dmg {
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
 	padding: 50px 50px 20px; }
-	
+
 .fonttheme {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 150%; }
 	
 .fonttheme-sm {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 75%;
     padding: 0px 25px;	}
 	
